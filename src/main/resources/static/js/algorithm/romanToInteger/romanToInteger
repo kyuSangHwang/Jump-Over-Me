@@ -1,0 +1,52 @@
+로마 숫자는 7개의 다른 기호로 표현된다: I, V, X, L, C, D, M
+
+Symbol       Value
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+´´
+예를 들어, 2는 로마 숫자로 2로 쓰이고, 12는 "XII"로 쓰이고, 12는 "X + II"로 쓴다. 숫자 27은 "XXVII", "XX + V + II"로 표기되어 있습니다.
+
+로마 숫자는 보통 왼쪽에서 오른쪽으로 가장 큰 숫자와 가장 작은 숫자로 쓰여진다.
+그러나 4의 숫자는 "III"가 아니다.z
+대신, 숫자 4는 "IV"로 쓰여집니다.
+왜냐하면 하나는 5보다 앞에 있기 때문에 4를 뺄 수 있기 때문입니다.
+9번에도 같은 원리가 적용되며, 9번도 9번으로 표기된다.
+사용되는 예는 6가지입니다.
+
+"I" can be placed before "V" (5) and "X" (10) to make 4 and 9.
+"X" can be placed before "L" (50) and "C" (100) to make 40 and 90.
+"C" can be placed before "D" (500) and "M" (1000) to make 400 and 900.
+Given a roman numeral, convert it to an integer.
+
+V는 (5)와 X (10) 앞에 배치되어 4와 9를 만들 수 있다.
+X는 L(50)과 C(100) 앞에 배치하여 40과 90을 만들 수 있다.
+C는 D(500)와 M(1000) 앞에 배치하여 400과 900을 만들 수 있습니다.
+로마숫자가 주어지면 정수로 변환한다.
+
+
+Example 1:
+Input: s = "III"
+Output: 3
+
+Example 2:
+Input: s = "IV"
+Output: 4
+
+Example 3:
+Input: s = "IX"
+Output: 9
+
+Example 4:
+Input: s = "LVIII"
+Output: 58
+Explanation: L = 50, V= 5, III = 3.
+
+Example 5:
+Input: s = "MCMXCIV"
+Output: 1994
+Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.

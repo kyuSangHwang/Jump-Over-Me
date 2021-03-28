@@ -1,0 +1,27 @@
+
+'(', ')', '{', '}', '[' 및 ']' 문자만 포함하는 문자열이 주어지면 입력 문자열이 유효한지 확인합니다.
+
+입력 문자열은 다음과 같은 경우에 유효합니다.
+
+열린 브래킷은 동일한 유형의 브래킷으로 닫아야 합니다.
+열린 브래킷은 올바른 순서로 닫아야 합니다.
+
+Example 1:
+    Input: s = "()"
+    Output: true
+
+Example 2:
+    Input: s = "()[]{}"
+    Output: true
+
+Example 3:
+    Input: s = "(]"
+    Output: false
+
+Example 4:
+    Input: s = "([)]"
+    Output: false
+
+Example 5:
+    Input: s = "{[]}"
+    Output: true
