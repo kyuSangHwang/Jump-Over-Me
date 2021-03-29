@@ -8,9 +8,11 @@
 - [Algorithm](#Algorithm)
 - [Interest Language](#Language)
 
-# How to Use
+# List of Studies this week
 ```
-download plz : 다움받아서 프로젝트를 실행하시면 됩니다. (sample)
+1. built In Object (JavaScript) for Two days
+2. this (JavaScript) for Two days
+3. Tree Sum (Algorithm) for Three days
 ```
 
 <br>
