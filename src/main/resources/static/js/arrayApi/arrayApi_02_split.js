@@ -6,6 +6,7 @@
     const fruits = 'apple, banana, orange, kiwi';
     const result1 = fruits.split();
     const result2 = fruits.split(',');
+
     console.log(result1);
     console.log(result2);
 }
